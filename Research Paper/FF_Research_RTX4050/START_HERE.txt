@@ -1,0 +1,19 @@
+START HERE — ONLY ONE STEP AT A TIME
+
+1) Put this folder inside your current:
+   Research Paper
+
+2) Make sure your terminal begins with:
+   (.venv)
+
+3) Open this folder in your IDE.
+
+4) DO NOT start the 1000-epoch run yet.
+
+5) First run exactly:
+
+   python train.py --epochs 2 --eval-every 1 --max-steps 2 --run-dir runs\smoke
+
+6) Send ChatGPT the complete terminal output.
+
+After the smoke test passes, we will check VRAM and then start the real run.
